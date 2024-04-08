@@ -32,7 +32,8 @@ void main() {
   print(list_string[0]); //? Usama
   print(list_string[1]); //? Sarwar
 
-  List list = ["Usama", "Sarwar", 25, true, 23.3, 25]; // List of dynamic data types
+  // List of dynamic data types
+  List list = ["Usama", "Sarwar", 25, true, 23.3, 25];
   print(list); //? [Usama, Sarwar, 25, true, 23.3, 25]
 
   Map<String, String> _map = {"firstName": "Usama", "lastName": "Sarwar"};

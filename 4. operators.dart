@@ -119,11 +119,11 @@ void main(List<String> args) {
   
   // Initializing variables
   var m = 2; // 10
-  var n = 1; // 01
+  var n = 3; // 11
 
   // Bitwise AND
   var o = m & n;
-  print('m & n = $o'); // 00
+  print('m & n = $o'); // 10
 
   // Bitwise OR
   o = m | n;
@@ -131,19 +131,19 @@ void main(List<String> args) {
 
   // Bitwise XOR
   o = m ^ n;
-  print('m ^ n = $o'); // 11
+  print('m ^ n = $o'); // 01
 
   // Bitwise NOT
   o = ~n;
-  print('~n = $o'); // -2
+  print('~n = $o'); // -4  (100)
 
   // Bitwise left shift
   o = m << n;
-  print('m << n = $o'); // 100
+  print('m << n = $o'); // 16
 
   // Bitwise right shift
   o = m >> n;
-  print('m >> n = $o'); // 1
+  print('m >> n = $o'); // 0
 
   /// Assignment Operators
   /// =, +=, -=, *=, /=, %=

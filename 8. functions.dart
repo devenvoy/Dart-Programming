@@ -1,6 +1,9 @@
 /// Functions in Dart
-/// Functions are first-class objects in Dart. This means that functions can be assigned to variables or passed as arguments to other functions.
-/// Function(input1, input2, …) 
+/// Functions are first-class objects in Dart.
+/// This means that functions can be assigned to variables or passed as
+/// arguments to other functions.
+///
+/// Function(input1, input2, …)
 /// { // function body }
 
 /// Syntax of a function
@@ -28,12 +31,13 @@ void main(List<String> args) {
     print("Hi, I am a function with no return type and no input parameters");
   }
 
-  functionWithNoReturnTypeAndNoInputParameters(); 
+  functionWithNoReturnTypeAndNoInputParameters();
   // Output: Hi, I am a function with no return type and no input parameters
 
   // 2. Function with no return type and input parameters
   void functionWithNoReturnTypeAndInputParameters(String name, int age) {
-    print("Hi, I am $name and I am $age years old"); // Hi, I am Usama and I am 27 years old
+    print(
+        "Hi, I am $name and I am $age years old"); // Hi, I am Usama and I am 27 years old
   }
 
   functionWithNoReturnTypeAndInputParameters("Usama", 27);
@@ -106,10 +110,10 @@ void main(List<String> args) {
   int sum(int a, int b) => a + b;
   print(sum(12, 12)); // 24
 
-  /// Recrusive function
+  /// Recursive function
   /// A recursive function is a function that calls itself.
 
-  /// Recrusive function with no return type and no input parameters
+  /// Recursive function with no return type and no input parameters
   // ignore: unused_element
   void recrusiveFunctionWithNoReturnTypeAndNoInputParameters() {
     print(
@@ -128,6 +132,7 @@ void main(List<String> args) {
       recrusiveFunctionWithNoReturnTypeAndNoInputParameters2();
     }
   }
+
   recrusiveFunctionWithNoReturnTypeAndNoInputParameters2();
 
   /// Function Overloading
@@ -144,7 +149,7 @@ void main(List<String> args) {
 
 //! void main(List<String> args) => print('Hello World');
 
-///? ========================= E X T R A S ============================= 
+///? ========================= E X T R A S =============================
 //
 // void main(List<String> args) {
 //   int sum(int a, int b) {

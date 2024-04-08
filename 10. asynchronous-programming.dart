@@ -1,6 +1,8 @@
 /// Asynchronous programming in Dart
-/// Asynchronous programming is a style of programming where the execution of a task is not dependent on the previous task.
-/// In other words, a task is executed without blocking the main thread. In asynchronous programming, a task is executed in the background.
+/// Asynchronous programming is a style of programming where the execution of
+/// a task is not dependent on the previous task.
+/// In other words, a task is executed without blocking the main thread.
+/// In asynchronous programming, a task is executed in the background.
 import 'dart:async';
 
 void main(List<String> args) {

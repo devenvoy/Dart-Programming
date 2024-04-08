@@ -15,6 +15,7 @@ void main() {
   // for loop
   for (var i = 0; i < 10; i++) {
     print(i);
+  }
     // Dry run
     // i = 0, 0 < 10, print(0) // Output: 0
     // i = 1, 1 < 10, print(1) // Output: 1
@@ -27,7 +28,6 @@ void main() {
     // i = 8, 8 < 10, print(8) // Output: 8
     // i = 9, 9 < 10, print(9) // Output: 9
     // i = 10, 10 < 10 // Output: Terminate
-  }
 
   // while loop
   var i = 0; // Initializer
